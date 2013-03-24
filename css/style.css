@@ -1,0 +1,228 @@
+
+body {
+	background: #a2a392;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #535353;
+}
+#content {
+	width: 930px;
+	background: #ffffff;
+	margin: 40px auto;
+	margin-bottom: 0px;
+	padding: 25px;
+}
+#copyright {
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+	margin: 18px 0px;
+}
+h1 {
+	font-size: 26px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+strong {
+	font-size: 18px;
+	font-weight: normal;
+	display: block;
+	border-top: 2px dotted #b5b5b5;
+	border-bottom: 2px dotted #b5b5b5;
+	text-align: center;
+	padding: 7px;
+	margin-bottom: 20px;
+}
+.floatWrapper {
+	width: 100%;
+	overflow: hidden;
+}
+.floatLeft {
+	float: left;
+}
+
+
+/* 
+----------------------------------
+START: Section 1 
+*/
+.boxRow {
+	margin-bottom: 30px;
+}
+.boxRow div {
+	width: 308px;
+	height: 120px;
+	border-right: 2px solid #818181;
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+
+.boxRow div h2 {
+	font-size: 15px;
+	margin: 0px;
+	margin-bottom: 12px;
+	font-weight: normal;
+}
+.boxRow div p,
+.boxRow div h2 {
+	margin: 0px 12px;
+}
+.boxRow div h2 {
+	margin-bottom: 12px;
+}
+.boxRow div.first p,
+.boxRow div.first h2 {
+	margin-left: 0px;
+}
+.boxRow div.middle h2 {
+	text-align: center;
+}
+.boxRow div.last p {
+	margin-right: 0px;
+}
+.boxRow div.last {
+	border-right: 0px;
+}
+/* 
+END: Section 1 
+----------------------------------
+*/
+
+
+/* 
+----------------------------------
+START: Section 2 
+*/
+#relativeContainer {
+	position: relative;
+	width: 100%;
+	height: 338px;
+}
+
+#relativeContainer #overFlow {
+	position: absolute;
+	width: 1022px;
+	height: 180px;
+	top: 0px;
+	left: -48px;
+	z-index: 10;
+}
+#relativeContainer #overFlow #adOne {
+	float: left;
+}
+#relativeContainer #overFlow #adTwo {
+	float: right;
+}
+#relativeContainer #overFlow #adOne,
+#relativeContainer #overFlow #adTwo {
+	position: relative;
+	width: 329px;
+	height: 278px;
+}
+#relativeContainer #overFlow #adOne .circle,
+#relativeContainer #overFlow #adTwo .circle {
+	position: absolute;
+	top: 0px;
+	width: 59px;
+	height: 59px;
+	z-index: 20;
+	background: url( ../images/ABbg.png );
+	color: #000000;
+	font-size: 24px;
+}
+#relativeContainer #overFlow #adOne .circle p,
+#relativeContainer #overFlow #adTwo .circle p {
+	margin-top: 15px;
+	margin-left: 14px;
+}
+#relativeContainer #overFlow #adOne .circle {
+	left: 270px;
+}
+#relativeContainer #overFlow #adOne .ad,
+#relativeContainer #overFlow #adTwo .ad {
+	position: absolute;
+	top: 28px;
+	width: 300px;
+	height: 250px;
+	z-index: 10;
+}
+#relativeContainer #overFlow #adOne .ad {
+	left: 0px;
+}
+#relativeContainer #overFlow #adTwo .ad {
+	left: 29px;
+}
+/* 
+END: Section 2 
+----------------------------------
+*/
+
+
+/* 
+----------------------------------
+START: Section 3 
+*/
+form {
+	padding-left: 230px;
+}
+label {
+	font-size: 12px;
+	margin-right: 25px;
+}
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 379px;
+}
+table tr td {
+	padding-bottom: 25px;
+}
+table tr td.label {
+	width: 251px;
+	text-align: right;
+	vertical-align: top;
+}
+table tr td.input {
+	width: 328px;
+}
+table tr td.input select {
+	width: 125px;
+}
+table tr td.input input#invCycleYear {
+	width: 50px;
+}
+table tr td.input select,
+table tr td.input input#invCycleYear {
+	border: 1px solid #000000;
+	height: 20px;
+}
+table tr td#qs {
+	width: 330px;
+	overflow: hidden;
+	vertical-align: top;
+	text-align: left;
+}
+table tr td#qs ul {
+	list-style-type: none;
+	width: 100px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+table tr td#qs ul li {
+	width: 100px;
+	margin-bottom: 2px;
+}
+table tr td#qs div#warning {
+	vertical-align: top;
+	background: #ffcc99;
+	border: 1px solid #ff0000;
+	float: left;
+	font-size: 11px;
+	color: #000000;
+	padding: 14px;
+}
+/* 
+END: Section 3 
+----------------------------------
+*/

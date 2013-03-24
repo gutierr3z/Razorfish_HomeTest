@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>RazorFish Test: Juan C Gutierrez</title>
+	<link href="css/style.css" rel="stylesheet">
+	
+
+</head>
+
+<body>
+
+<div id="content">
+
+	<h1>Razorfish PLD Test</h1>
+	
+	<!-- START: Section 1 -->
+	<strong>Section 1</strong>
+	
+	<div class="floatWrapper boxRow">
+		<div class="floatLeft first">
+			<h2>DONEC MATTIS?</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pellentesque egestas eros, ac ullamcorper dui iaculis a. Aenean non malesuada purus. Donec augue tellus, mattis ut blandit nec, rhoncus quis erat. Morbi mattis erat a nibh imperdiet pellentesque.</p>
+		</div>
+		
+		<div class="floatLeft middle">
+			<h2>CRAS BLANDIT</h2>
+			<p>Nunc dictum mauris sed magna hendrerit sed tempus leo pulvinar. Phasellus iaculis pellentesque mauris ut tempus. Nullam commodo rhoncus interdum. Vivamus elit nibh, feugiat vel dignissim vitae, egestas et nunc. Etiam in est sed arcu hendrerit malesuada.</p>
+		</div>
+		
+		<div class="floatLeft last">
+			<h2>NULLAM LACUS NULLA</h2>
+			<p>Etiam rutrum lobortis odio sit amet suscipit. Praesent eleifend volutpat lectus, vel faucibus tellus interdum a. Aliquam in tellus elit, et dignissim dolor. Sed at libero orci. Cras sem magna, sodales id consequat eu, convallis sed lectus. Vestibulum scelerisque, felis ac molestie dictum, massa risus semper eros.</p>
+		</div>
+	</div>
+	
+	
+	<div class="floatWrapper boxRow">
+		<div class="floatLeft first">
+			<h2>SED IN UMA MASSA</h2>
+			<p>Sed in urna massa, vitae mattis ligula. Proin sapien urna, elementum ac auctor nec, malesuada nec mi. Nullam sit amet felis sem, a adipiscing elit. Curabitur id nisi ac odio blandit vestibulum quis vel est.</p>
+		</div>
+		
+		<div class="floatLeft middle last">
+			<h2>MORBI MATTIS ODIO</h2>
+			<p>Morbi mattis odio ut turpis congue eu molestie metus sollicitudin. Aliquam et risus ligula. Ut at varius nisl. Donec et lacus lacus, ac aliquet erat. Nullam id sagittis lorem. Phasellus tincidunt lorem eget erat ultrices facilisis. Nunc cursus mollis aliquet. Donec in elit est, a vestibulum est.</p>
+		</div>
+	</div>
+	<!-- END: Section 1 -->
+	
+	
+	<!-- START: Section 2 -->
+	<strong>Section 2</strong>
+	
+	<div id="relativeContainer">
+	
+		<div id="overFlow">
+		
+			<div id="adOne">
+				<div class="circle"><p>AB</p></div>
+				<div class="ad"><img src="images/ad.jpg"></div>
+			</div>
+			
+			<div id="adTwo">
+				<div class="circle"><p>AB</p></div>
+				<div class="ad"><img src="images/ad.jpg"></div>
+			</div>
+			
+		</div>
+	
+	</div>
+	<!-- END: Section 2 -->
+	
+	
+	<!-- START: Section 3 -->
+	<strong>Section 3</strong>
+	
+	<form id="theForm">
+		<table>
+			<tr>
+				<td class="label"><label for="invCycle">Investment cycle:</label></td>
+				<td class="input">
+					<select name="invCycle" id="invCycle">
+						<option value="January">January</option>
+						<option value="February">February</option>
+						<option value="March">March</option>
+						<option value="April">April</option>
+						<option value="May">May</option>
+						<option value="June">June</option>
+						<option value="July">July</option>
+						<option value="August">August</option>
+						<option value="September">September</option>
+						<option value="October">October</option>
+						<option value="November">November</option>
+						<option value="December">December</option>
+					</select>
+				</td>
+			</tr>
+			<tr id="noJS">
+				<td class="label">
+					<label for="invCycleYear">Year: </label>
+				</td>
+				<td class="input">
+					<input type="text" name="invCycleYear" id="invCycleYear">
+				</td>
+			</tr>
+			<tr>
+				<td class="label"><label for="">Subsequent investments will occur on:</label></td>
+				<td class="input" id="qs">
+					<ul>
+						<li><input type="checkbox" name="qA" id="qA" value="Q1"><label>Q1</label></li>
+						<li><input type="checkbox" name="qB" id="qB" value="Q2"><label>Q2</label></li>
+						<li><input type="checkbox" name="qC" id="qC" value="Q3"><label>Q3</label></li>
+						<li><input type="checkbox" name="qD" id="qD" value="Q4"><label>Q4</label></li>
+					</ul>
+					<div id="warning" style="display: none;">
+						You may only select up to two (2) items
+					</div>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<!-- END: Section 3 -->
+	
+</div>
+
+<div id="copyright">
+	&#169; Razorfish Presentation Layer Developers 
+</div>
+
+<script src="js/PLD.js"></script>
+<script>
+	
+	PLD.test.init();
+	
+</script>
+
+</body>
+</html>

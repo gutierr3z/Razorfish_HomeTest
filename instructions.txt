@@ -1,0 +1,31 @@
+General Requirements
+    * Match the PSD (./creative/pld-test.psd).
+      (If you don't have Photoshop, download a trial.)
+    * It should look and work the same in:
+        * Internet Explorer 7 and above
+        * Firefox Latest
+        * Safari Latest
+        * Chrome Latest
+
+Section 1
+    * Obtain the text for the 5 paragraphs from the PSD.
+
+Section 2
+    * Obtain the images from the PSD.
+    * Use the same ad image and the same blue circle image for both the left and
+      right placement.
+    * "AB" should be system text.
+
+Section 3
+    * Use unobtrusive JavaScript
+    * When a user selects a date from the investment cycle drop-down box,
+      the subsequent investment values must display the next three fiscal quarters.
+      (e.g. for "January 2012", the subsequent quarters will be Q2 2012, Q3 2012, Q4 2012
+      for "June 2012", the subsequent quarters will be Q3 2012, Q4 2012, Q1 2013.)
+    * Do not hard-code the resulting quarter years in the javascript.
+    * The subsequent quarters should be presented with checkboxes which are all unchecked.
+    * Display the error message if the user attempts to select three checkboxes,
+      and prevent the user from selecting more than two checkboxes.
+
+Final note
+    * Use your best judgment as a presentation layer developer.
